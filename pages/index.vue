@@ -1,3 +1,8 @@
 <template>
-    <h1>test</h1>
+    <div></div>
 </template>
+
+<script>
+export default {
+}
+</script>
