@@ -40,7 +40,7 @@ const formData = reactive({
     email: "",
     name: ""
 })
-const router = useRouter()
+const routerOne = useRouter()
 
 const encode = (data) => {
     return Object.keys(data)
@@ -56,7 +56,7 @@ const handleSubmit = (e) => {
             ...formData,
         }),
     })
-        .then(() => router.push('/netlify-form/success'))
+        .then(() => routerOne.push('/netlify-form/success'))
         .catch(error => alert(error))
 }
 </script>
