@@ -5,3 +5,5 @@ nuxt.d.ts
 .output
 .env
 .sw
+# Local Netlify folder
+.netlify
