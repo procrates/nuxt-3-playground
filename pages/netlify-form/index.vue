@@ -1,5 +1,5 @@
 <template>
-    <form name="contact" netlify>
+    <form name="contact" data-netlify="true">
         <p>netlify test form</p>
         <p>
             <label>
