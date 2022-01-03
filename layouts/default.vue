@@ -1,5 +1,8 @@
 <template>
-    <div class="relative">
+    <div>
+        <slot />
+    </div>
+    <!--     <div class="relative">
         <button @click="menuState = !menuState">menu</button>
         <transition-group
             enter-active-class="transition-transform duration-500 ease-in"
@@ -64,10 +67,10 @@
         <div class="relative">
             <slot />
         </div>
-    </div>
+    </div>-->
 </template>
 <script setup lang="ts">
-const menuState = ref(false)
+/* const menuState = ref(false)
 const toggleList = ref(false)
 const loading = ref(false)
 const remaining = ref(3000)
@@ -79,8 +82,6 @@ const images = data.value.map(i => {
     return i.flags.svg
 }
 )
-console.log(images);
-
 onMounted(() => {
     loading.value = true
 
@@ -95,6 +96,7 @@ onMounted(() => {
         } else {
             itemList.value.push(items.shift())
         }
+
     }, 100)
-})
+}) */
 </script>
