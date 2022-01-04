@@ -1,6 +1,6 @@
 <template>
     <form
-        name="contact"
+        name="contactus"
         method="post"
         v-on:submit.prevent="handleSubmit"
         action="/success/"
